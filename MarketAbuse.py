@@ -10,7 +10,7 @@ def sara_mkt_abuse():
     number_of_abuses = 0
     
     # how many times we want to cycle the commands
-    while number_of_abuses < 10:
+    while number_of_abuses < 100_000_000:
         # sell - buy stone
         pyautogui.hotkey('shift', 'p')
         pyautogui.hotkey('shift', ';')
