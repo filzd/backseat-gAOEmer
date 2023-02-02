@@ -1,6 +1,8 @@
 import pyautogui
 
 def sara_mkt_abuse():
+    # instant abuse
+    pyautogui.PAUSE = 0
     
     # makes sure mkt is selected
     pyautogui.press('t')
