@@ -1,4 +1,3 @@
-# We import the necessary packages
 # import the needed packages
 import cv2
 import os
