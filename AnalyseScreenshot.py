@@ -9,7 +9,7 @@ from MarketAbuse import sara_mkt_abuse
 
 def AnalyseScreenshot():
 
-    # We then Construct an Argument Parser
+    # construct an Argument Parser
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--image",
                     required=True,
@@ -21,7 +21,7 @@ def AnalyseScreenshot():
                 help="the preprocessor usage")
     args = vars(ap.parse_args())
 
-    # We then read the image with text
+    # read the image with text
     images = cv2.imread(args["image"])
 
     # convert to grayscale image
