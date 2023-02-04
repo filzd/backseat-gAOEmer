@@ -47,10 +47,12 @@ def AnalyseScreenshot():
     letter_f = text.find('Food')
     
     buy = int(text[letter_y + 2: slash])
-    sell = int(text[letter_l + 3 + 1: letter_f])
-    
+    sell = int(text[letter_l + 3: letter_f - 2])
+
+
     # determine, if we should abuse
     if sell > buy:
         sara_mkt_abuse()    
 
+    
 AnalyseScreenshot()
