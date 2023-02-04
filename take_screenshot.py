@@ -7,7 +7,7 @@ def takeScreenshot():
     pyautogui.hotkey("ctrl", "r")
     
     # rough location of sell and buy prices
-    MktAbuse = pyautogui.screenshot(region=(2048, 1080, 500, 200))
+    MktAbuse = pyautogui.screenshot(region=(2060, 1000, 500, 200))
     MktAbuse.save(r'C:\Users\idk\backseat-gAOEmer\Screenshots\MktAbuse.jpg')
     
 takeScreenshot()
